@@ -1,0 +1,4 @@
+#ignore very large camera files
+img/DSC_*.jpg
+img/HR/*
+img/workshop/*
