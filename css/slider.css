@@ -1,17 +1,14 @@
-
-
-
 #slide{
-  position:relative;
+  position: relative;
   width: auto;
-  height: 550px;
-  overflow:hidden;
-  margin: 30px auto;  
+  height: 500px;
+  overflow: hidden;
   box-shadow: 0 8px 6px -6px rgba(0,0,0,1); 
 }
+
 #slide div{
   display:block;
-  width:0;
+  width: 0;
   float: left;
   -webkit-transition: all 0.75s;
   -moz-transition: all 0.75s;
@@ -25,17 +22,22 @@ button.prev, button.next {
   display: block;
   padding:0 10px;
   width: auto;
-  height:550px;
+  height: 500px;
   background: rgba(0,0,0,0);
   color: #ffffff;
   font-size:26px;
   cursor: pointer;
-  border:none;
-  outline:none;
+  border: none;
+  outline: none;
 }
+
 button.prev:hover, button.next:hover {
   background: rgba(0,0,0,0.8);
 }
+button.prev {
+  left: 0px;
+}
+
 button.next {
-    margin-left: 966px;
+  right: 0px;
 }

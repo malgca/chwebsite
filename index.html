@@ -2,109 +2,112 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8" />
-	<title>Cortex Hub </title>
-	<link rel="shortcut icon" href="img/persaud-brain-common-core.gif"/>	
+	<title>The Cortex Hub</title>
+	<link rel="shortcut icon" href="img/icon.png"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="css/style.css" rel="Stylesheet"/>
-	<link href="css/testcss.css" rel="Stylesheet"/>
-	<link href="css/grid.css" rel="Stylesheet"/>
-	<link href="css/slider.css" rel="Stylesheet"/>
+	
+	<link rel="stylesheet" type="text/css" href="css/overall.css"/>
+	<link rel="stylesheet" type="text/css" href="css/navigationbar.css"/>
+	<link rel="stylesheet" type="text/css" href="css/testcss.css"/>
+	<link rel="stylesheet" type="text/css" href="css/grid.css"/>
+	<link rel="stylesheet" type="text/css" href="css/slider.css"/>
+	
 	<script src="js/Slider.js"></script>
-	<link href="css/navCss.css" rel="Stylesheet"/>
 	<script src="js/nav.js"></script>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-	<script src="js/jquery-1.7.1.min.js" type="text/javascript"></script> 
-	<script src="js/modernizr-2.0.6.min.js" type="text/javascript"></script> 
+	<script src="js/jquery-1.7.1.min.js" type="text/javascript"></script>
+	<script src="js/modernizr-2.0.6.min.js" type="text/javascript"></script>
 </head>
 
-<body>
-	<div id="wrapper">
-		<header>
-			<h1><a href="index.html"><img src="img/logo.png"/></a></h1>
-		</header>
-			
-			<nav id="menu-wrap">    
-				<ul id="menu"> 
-					<li><a href="index.html">Home</a> </li>
-					<li><a href="about_us.html">About us</a>
-						<ul>
-							<li><a href="vision.html">Vision</a></li>
-							<li><a href="about_us.html">Who we are</a></li>
-						
-						</ul>
-					</li> 
-					<li><a href="">Multimedia</a>
-						<ul>
-							<li><a href="multimedia.html">Video</a></li>
-							<li><a href="workshop.html">Workshop Gallery</a></li>
-							<li><a href="lifestyle.html">Lifestyle</a></li>
-						</ul>
-					<li><a href="#">Partners</a>
-						<ul>
-							<li><a href="http://www.ufh.ac.za/">Fort Hare</a></li>
-							<li><a href="http://www.ru.ac.za/">Rhodes</a></li>
-							<li><a href="https://www.nmmu.ac.za/">NMMU</a></li>
-						</ul>
-					</li>
-					<li><a href="event.html">Events</a></li>
-					<li><a href="#">Project</a>
-						<ul>
-							<li><a href="project-arduino.html">Arduino</a></li>
-							<li><a href="project-berry.html">Raspberry Pi</a></li>
-							<li><a href="project-drone.html">Drone</a></li>
-						</ul>
-					</li>
-					<li><a href="ecosystem.html">Ecosystem</a></li>  <!--
-					<li><a href="#">FAQ</a></li> -->
-					<li><a href="https://cortexhub.wordpress.com/">Blog</a></li> <!--
-					<li><a href="apply.html">Apply</a></li> -->
-				</ul>
-			</nav>
+<header>
+	<a href="index.html">
+		<img class="logo" src="img/headerlogo.png"/>
+	</a>
+
+	<div id="header-background" />
 	
-			<section id="slide">
-			<button onclick="back_slide(true)" class="prev">&#171;</button>
-			<button onclick="slides(true)" class="next">&#187;</button>
-				<span>
-					<img src="img/DSC_6674.JPG"/>
-				</span>
-				<span class ="move">
-					<img src="img/DSC_6404.JPG"/>
-				</span> 
-				<span class ="move">
-					<img src="img/DSC_6732.JPG"/>
-				</span>
-				<span class ="move">
-					<img src="img/DSC_7027.JPG"/>
-				</span>
-				<span class ="move">
-					<img src="img/DSC_7208.JPG"/>
-				</span>
-				<span class ="move">
-					<img src="img/DSC_7226.JPG"/>
-				</span>
-				<span class ="move">
-					<img src="img/DSC_7262.JPG"/>
-				</span>
-				<span class ="move">
-					<img src="img/DSC_5889.JPG"/>
-				</span>
-				<span class ="move">
-					<img src="img/DSC_6916.JPG"/>
-				</span>			
-		 </section>
-				
-			<div class="clearfix"></div>
-		<footer>
-			<div id="social">
-				<tr>
-					<td><a href="https://www.facebook.com/cortexhub?ref=hl" target="_blank"><img src="http://www.w3newbie.com/wp-content/uploads/facebook.png" alt="facebook"/></a></td>
-					<td><a href="https://twitter.com/cortexhub" target="_blank"><img src="http://www.w3newbie.com/wp-content/uploads/twitter.png" alt="twitter"/></a></td> 
-					<td><a href="http://www.youtube.com/drewoncue/" target="_blank"><img src="img/linkedin.png" alt="youtube"/></a></td>
-					<td><a href="http://www.plus.google.com‎" target="_blank"><img src="http://www.w3newbie.com/wp-content/uploads/google_plus.png" alt="google plus"/></a></td>
-				</tr>
-			</div>
-			
-		</footer>
-	</div>	
+	<div id="navigation">
+		<nav id="menu-wrap">    
+			<ul id="menu"> 
+				<li><a href="#">Who We Are</a>
+					<ul>
+						<li><a href="about_us.html">About The Cortex Hub</a></li>
+						<li><a href="about_us.html">About Our CEO's</a></li>
+						<li><a href="about_us.html">About Our Advisors</a></li>
+						<li><a href="about_us.html">About Our Entrepreneurs</a></li>
+					</ul>
+				</li> 
+				<li><a href="#">What We Do</a>
+					<ul>
+						<li><a href="lifestyle.html">Our World</a></li>
+						<li><a href="multimedia.html">Our Projects</a></li>
+						<li><a href="workshop.html">Our Events</a></li>
+						<li><a href="lifestyle.html">Our Lives</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Who Are Our Partners</a>
+					<ul>
+						<li><a href="http://www.ufh.ac.za/">Fort Hare</a></li>
+						<li><a href="http://www.ru.ac.za/">Rhodes</a></li>
+						<li><a href="https://www.nmmu.ac.za/">NMMU</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Why You Should Join Us</a>
+					<ul>
+						<li><a href="tbc">Why Join Us?</a></li>
+						<li><a href="tbc">Apply</a></li>
+						<li><a href="tbc">Join Our Teams</a></li>
+					</ul>
+				</li>
+				<li><a href="https://cortexhub.wordpress.com/">Our Blog</a></li>
+			</ul>
+		</nav>
+	</div>
+</header>
+
+<body>
+	<section id="slide">
+		<button onclick="back_slide(true)" class="prev">&#171;</button>
+		<button onclick="slides(true)" class="next">&#187;</button>
+		<span>
+			<img src="img/DSC_6674.JPG"/>
+		</span>
+		<span class ="move">
+			<img src="img/DSC_6404.JPG"/>
+		</span> 
+		<span class ="move">
+			<img src="img/DSC_6732.JPG"/>
+		</span>
+		<span class ="move">
+			<img src="img/DSC_7027.JPG"/>
+		</span>
+		<span class ="move">
+			<img src="img/DSC_7208.JPG"/>
+		</span>
+		<span class ="move">
+			<img src="img/DSC_7226.JPG"/>
+		</span>
+		<span class ="move">
+			<img src="img/DSC_7262.JPG"/>
+		</span>
+		<span class ="move">
+			<img src="img/DSC_5889.JPG"/>
+		</span>
+		<span class ="move">
+			<img src="img/DSC_6916.JPG"/>
+		</span>			
+	</section>
 </body>
+
+<footer>
+	<div id="social">
+		<tr>
+			<td><a href="https://www.facebook.com/cortexhub?ref=hl" target="_blank"><img src="http://www.w3newbie.com/wp-content/uploads/facebook.png" alt="facebook"/></a></td>
+			<td><a href="https://twitter.com/cortexhub" target="_blank"><img src="http://www.w3newbie.com/wp-content/uploads/twitter.png" alt="twitter"/></a></td> 
+			<td><a href="http://www.youtube.com/drewoncue/" target="_blank"><img src="img/linkedin.png" alt="youtube"/></a></td>
+			<td><a href="http://www.plus.google.com‎" target="_blank"><img src="http://www.w3newbie.com/wp-content/uploads/google_plus.png" alt="google plus"/></a></td>
+		</tr>
+	</div>	
+</footer>
+
 </html>
