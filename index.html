@@ -6,26 +6,27 @@
 	<link rel="shortcut icon" href="img/icon.png"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
-	<link rel="stylesheet" type="text/css" href="css/overall.css"/>
-	<link rel="stylesheet" type="text/css" href="css/navigationbar.css"/>
-	<link rel="stylesheet" type="text/css" href="css/testcss.css"/>
-	<link rel="stylesheet" type="text/css" href="css/grid.css"/>
-	<link rel="stylesheet" type="text/css" href="css/slider.css"/>
+	<link rel="stylesheet" type="text/css" href="styles/sitepages/overall.css"/>
+	<link rel="stylesheet" type="text/css" href="styles/navigationbar/navigationbar.css"/>
+	<link rel="stylesheet" type="text/css" href="styles/testcss.css"/>
+	<link rel="stylesheet" type="text/css" href="styles/grid.css"/>
+	<link rel="stylesheet" type="text/css" href="styles/slider.css"/>
 	
-	<script src="js/Slider.js"></script>
-	<script src="js/nav.js"></script>
+	<script type="text/javascript" src="scripts/slider/slider.js"></script>
+	<script type="text/javascript" src="scripts/navigationbar/nav.js"></script>
+	<script type="text/javascript" src="scripts/misc/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="scripts/misc/modernizr-2.0.6.min.js"></script>
+	<script type="text/javascript" src="scripts/parallax/parallax.js"></script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-	<script src="js/jquery-1.7.1.min.js" type="text/javascript"></script>
-	<script src="js/modernizr-2.0.6.min.js" type="text/javascript"></script>
 </head>
 
 <header>
 	<a href="index.html">
-		<img class="logo" src="img/headerlogo.png"/>
+		<img class="logo" src="images/logos/internal/headerlogo.png"/>
 	</a>
 
-	<div id="header-background" />
-	
 	<div id="navigation">
 		<nav id="menu-wrap">    
 			<ul id="menu"> 
@@ -66,37 +67,46 @@
 </header>
 
 <body>
-	<section id="slide">
-		<button onclick="back_slide(true)" class="prev">&#171;</button>
-		<button onclick="slides(true)" class="next">&#187;</button>
-		<span>
-			<img src="img/DSC_6674.JPG"/>
-		</span>
-		<span class ="move">
-			<img src="img/DSC_6404.JPG"/>
-		</span> 
-		<span class ="move">
-			<img src="img/DSC_6732.JPG"/>
-		</span>
-		<span class ="move">
-			<img src="img/DSC_7027.JPG"/>
-		</span>
-		<span class ="move">
-			<img src="img/DSC_7208.JPG"/>
-		</span>
-		<span class ="move">
-			<img src="img/DSC_7226.JPG"/>
-		</span>
-		<span class ="move">
-			<img src="img/DSC_7262.JPG"/>
-		</span>
-		<span class ="move">
-			<img src="img/DSC_5889.JPG"/>
-		</span>
-		<span class ="move">
-			<img src="img/DSC_6916.JPG"/>
-		</span>			
-	</section>
+	<!-- Parallax Window -->
+	<div id="parallax-header" data-parallax="scroll" data-image-src="images/DSC_6674.JPG" />
+
+	<div id="information-window">
+		<p>a</p>
+		<p>a</p>
+		<p>a</p>
+		<p>a</p>
+		<p>a</p>
+		<p>a</p>
+		<p>a</p>
+				<p>a</p>
+		<p>a</p>
+		<p>a</p>
+		<p>a</p>
+		<p>a</p>
+		<p>a</p>
+		<p>a</p>
+				<p>a</p>
+		<p>a</p>
+		<p>a</p>
+		<p>a</p>
+		<p>a</p>
+		<p>a</p>
+		<p>a</p>
+				<p>a</p>
+		<p>a</p>
+		<p>a</p>
+		<p>a</p>
+		<p>a</p>
+		<p>a</p>
+		<p>a</p>
+				<p>a</p>
+		<p>a</p>
+		<p>a</p>
+		<p>a</p>
+		<p>a</p>
+		<p>a</p>
+		<p>a</p>
+	</div>
 </body>
 
 <footer>
