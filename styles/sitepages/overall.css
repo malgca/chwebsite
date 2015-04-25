@@ -1,6 +1,5 @@
 /*Tags*/
 body {
-	background: url(back.png);
 	font-family: "Helvetica", "Calibri", Tahoma, Arial, Helvetica, sans-serif;
 	margin: auto;
 	display: block;
@@ -31,7 +30,18 @@ header {
 	z-index: -1;
 	border-top-color: #ffffff;
 	border-top-style: solid;
+	color: #ffffff;
 	border-top-width: 1px;
+}
+
+#footer-text {
+	text-align: center;
+	margin-top: 20px;
+
+}
+
+#footer-text a {
+	color: #ffffff;
 }
 
 /*IDs*/
@@ -136,4 +146,13 @@ p.parallax-headline {
 	font-size: 40pt;
 	margin-top: 10%;
 	margin-left: 10%;
+}
+div.social-images {
+	text-align: center;
+	margin-top: 50px;
+}
+
+div.social-images img {
+	height: 40px;
+	width: 40px;
 }
