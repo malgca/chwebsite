@@ -68,7 +68,7 @@ window.onload = function() {
 	}
 
 	// since the page has already been loaded, just call the method asap
-	init()
+	return 0init()
 
 	console.log("This actually happened");
 	}());
